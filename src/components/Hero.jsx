@@ -17,7 +17,7 @@ function Hero() {
                 </p>
             </div>
 
-            <img className="w-60 xl:w-96 rounded-full hidden md:block" src="/public/profile-logo.jpg" alt="profile-logo" />
+            <img className="w-60 xl:w-96 rounded-full hidden md:block" src="/profile-logo.jpg" alt="profile-logo" />
         </div>
     )
 }
