@@ -83,3 +83,11 @@ export const projectData = [
     //     visitURL: "https://your-website.com/project1",
     // },
 ];
+
+export const certificates = [
+    {
+        id: 1,
+        link: '/Reactjs-Certificate.jpg',
+        name: 'ReactJS Certificate'
+    }
+]
