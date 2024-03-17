@@ -3,3 +3,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Navbar */
+.nav {
+    @apply bg-gray-300 w-full dark:bg-gray-950 dark:text-gray-300
+}
+
+.nav-container {
+    @apply container mx-auto flex items-center justify-between py-3 px-8 lg:px-20 xl:px-40
+}
+
+.nav-list {
+    @apply hidden md:flex gap-6 text-gray-700 dark:text-gray-300
+}
+
+/* MAIN */
+.hero-section {
+    @apply container px-8 lg:px-20 xl:px-40 py-20 flex flex-col md:flex-row items-center justify-between mx-auto h-full max-h-[65%]
+}
+
+.heading-primary {
+    @apply text-gray-700 dark:text-gray-300 antialiased text-5xl font-extrabold
+}
+
+.heading-secondary {
+    @apply text-gray-600 dark:text-gray-400 antialiased text-3xl font-bold
+}
+
+.paragraph-small {
+    @apply font-semibold text-2xl text-gray-500 dark:text-gray-400/80
+}
+
+.paragraph-medium {
+    @apply text-xl text-gray-600 dark:text-gray-300/80
+}
+
+.button-ghost {
+    @apply px-6 py-2 rounded-md border border-gray-600 bg-gray-300/50 hover:bg-gray-300/90 dark:bg-gray-500/10 hover:dark:bg-gray-500/20 dark:border-gray-500 font-semibold cursor-pointer
+}
+
+.button-filled  {
+    @apply px-6 py-2 rounded-md bg-black/80 hover:bg-black/85 text-gray-300 dark:bg-gray-300 dark:text-gray-800 hover:dark:bg-gray-300/90 font-semibold
+}

@@ -7,7 +7,7 @@ import Skills from "./components/Skills"
 
 function App() {
   return (
-    <div className="bg-gray-200 w-full h-full font-Roboto">
+    <div className="bg-gray-200 dark:bg-black dark:text-gray-300 w-full h-full font-Roboto">
       <Navbar />
       <Hero />
       <About />
