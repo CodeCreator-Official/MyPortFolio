@@ -1,5 +1,6 @@
 import { useState } from "react"
 import MenuBar from "./shared/MenuBar"
+import Typewriter from "typewriter-effect"
 
 
 function Navbar() {
@@ -25,7 +26,15 @@ function Navbar() {
     return (
         <nav className="nav sticky top-0">
             <div className="nav-container relative">
-                <h1 className="font-extrabold text-2xl">{'</>'}</h1>
+                <h1 className="font-medium text-gray-700 dark:text-gray-300 text-2xl">
+                    <Typewriter
+                        options={{
+                            strings: ['</>'],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    />
+                </h1>
 
                 <ul className="nav-list">
                     <li>About</li>

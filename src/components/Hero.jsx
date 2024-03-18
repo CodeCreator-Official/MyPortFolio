@@ -22,9 +22,9 @@ function Hero() {
                 </div>
             </div>
 
-            <img className="w-60 h-60 xl:w-96 rounded-full hidden md:block dark:hidden" src="/dark-hero.jpg" alt="profile-logo" />
+            <img className="w-60 h-60 xl:w-96 xl:h-96 rounded-full hidden md:block dark:hidden" src="/dark-hero.jpg" alt="profile-logo" />
 
-            <img className="w-60 h-60 xl:w-80 outline-dashed border-8 border-black rounded-full hidden md:dark:block" src="/dark-hero.jpg" alt="profile-logo" />
+            <img className="w-60 h-60 xl:w-80 xl:h-80 outline-dashed border-8 border-black rounded-full hidden md:dark:block" src="/dark-hero.jpg" alt="profile-logo" />
         </div>
     )
 }

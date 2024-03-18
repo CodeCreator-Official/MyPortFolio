@@ -6,7 +6,7 @@
 
 /* Navbar */
 .nav {
-    @apply bg-gray-300 w-full dark:bg-gray-900/80 dark:text-gray-300
+    @apply bg-gray-300/80 w-full dark:bg-gray-900/80 dark:text-gray-300
 }
 
 .nav-container {
