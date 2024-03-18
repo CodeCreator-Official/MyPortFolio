@@ -3,7 +3,7 @@ import CertificateCard from "./shared/CertificateCard"
 
 function Certifications() {
     return (
-        <div className="container px-8 lg:px-20 xl:px-40 py-10 pt-0 mx-auto">
+        <div className="container px-5 lg:px-20 xl:px-40 py-10 pt-0 mx-auto">
             <div className="flex items-center gap-3">
                 <p className="h-[2px] w-full bg-gray-500"></p>
                 <p className="text-nowrap font-bold text-lg text-gray-600">Certifications</p>
