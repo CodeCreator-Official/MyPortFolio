@@ -9,7 +9,7 @@ function About() {
                 <p className="h-[2px] w-full bg-gray-500 dark:bg-gray-300"></p>
             </div>
 
-            <div className="bg-gray-50 border dark:border-gray-800 dark:bg-gray-900 text-gray-700 dark:text-gray-400 w-full max-w-3xl lg:max-w-4xl mx-auto px-10 py-8 my-10">
+            <div className="bg-gray-50 border dark:border-gray-800 dark:bg-gray-900 text-gray-700 dark:text-gray-400 w-full max-w-3xl lg:max-w-4xl mx-auto px-8 py-5 my-10">
                 <i className='bx bxs-quote-left text-4xl py-4 lg:pt-1'></i>
 
                 <p className="text-lg">

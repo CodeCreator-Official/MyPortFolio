@@ -14,7 +14,7 @@
 }
 
 .nav-list {
-    @apply hidden md:flex gap-6 text-gray-700 dark:text-gray-300
+    @apply hidden md:flex gap-8 text-gray-700 dark:text-gray-300
 }
 
 /* MAIN */
